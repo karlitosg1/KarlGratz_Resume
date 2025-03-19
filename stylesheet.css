@@ -1,0 +1,23 @@
+*{
+    padding: 5;
+    margin: 0;
+}
+html
+{
+    font-size: 100%;
+}
+body
+{
+    font: 100%/1.5 Verdana, Arial, Helvetica, sans-serif;
+    background: rgb(255, 244, 227);
+    color: black;
+}
+table
+{
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #c9c9c9;
+    font-size: 1.1em;
+    padding: 4px 4px;
+}
