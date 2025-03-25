@@ -9,11 +9,16 @@ html
 @font-face{
     font-family: 'Reey';
     src: url('Reey-Regular.otf') format('opentype');
+
+}
+@font-face{
+    font-family: 'AbrilFatface';
+    src: url('AbrilFatface-Regular.otf') format('opentype');
 }
 body
 {
     font: 100%/1.5 Verdana, Arial, Helvetica, sans-serif;
-    background-image: url("Background.JPG");
+    background-image: url("background.JPG");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -30,13 +35,22 @@ th, td {
     padding: 4px 4px;
 }
 button{
-    width: 200px;
-    background-color: white;
+    font-family: 'AbrilFatface', sans-serif;
+    width: 180px;
+    background-color:rgb(104, 72, 36);
+    background-image: url(purty-wood.png);
     color: black;
-    border: 2px solid #04AA6D;
+    font-size:large;
+    border-color: rgb(56, 35, 18);
+    border-radius: 5px;
+
+}
+button a{
+    color: rgb(216, 198, 178);
+    text-decoration: none;
 }
 h1{
     font-family: 'Reey', sans-serif;
-    margin: 40px;
+    margin: 50px;
     font-size:50px;
 }
