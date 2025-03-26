@@ -1,5 +1,4 @@
 *{
-    padding: 5;
     margin: 0;
 }
 html
@@ -20,6 +19,8 @@ body
     font: 100%/1.5 Verdana, Arial, Helvetica, sans-serif;
     background-image: url("background.JPG");
     background-size: cover;
+    max-width: 100%;
+    height: auto;
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
